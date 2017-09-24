@@ -1,0 +1,86 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "uuid" : "6993DC79-9BCC-44A1-A6B0-2A2596F72CFD",
+          "name" : "local_variable_button",
+          "action" : "calculation_using_local_variable_touch_up_inside",
+          "class" : "Button",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Local Variable"
+        },
+        "frame" : "{{60, 86}, {145, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "title" : "Global Variable",
+          "name" : "global_variable_button",
+          "action" : "calculation_using_global_variable_touch_up_inside",
+          "class" : "Button",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "uuid" : "674D5C14-88E2-4703-BF05-5C099F9D4BD6"
+        },
+        "frame" : "{{60, 164}, {145, 29}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "",
+          "font_name" : "<System>",
+          "name" : "local_variable_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "EDDEA2E1-D249-4E43-AA1B-9F8E60464DA5"
+        },
+        "frame" : "{{269, 86}, {150, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "",
+          "font_name" : "<System>",
+          "name" : "global_variable_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "4FA38C83-6FD2-4DBA-9A37-816EA5DBC27B"
+        },
+        "frame" : "{{269, 161}, {150, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
